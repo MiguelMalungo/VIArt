@@ -1,0 +1,54 @@
+# Unreal Engine specific ignores
+###################
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.userprefs
+*.log
+*.vs/
+*.vscode/
+*.tmp
+*.bak
+*.swp
+*Recovery/
+Build/
+!Build/ShaderWorkingDirectory/
+Modern_Art_Gallery/
+Characters/
+sounds/
+Media/
+ArtCollection1/
+QuizMedia/
+UI_Assets/
+
+# Build products
+##################
+*.apk
+*.app
+*.ipa
+
+# Crashlytics generated report files
+######################################
+crashlytics-build.properties
+
+# Various settings
+####################
+*.vscode
+*.idea/
+*.vs/
+*.DS_Store
+Thumbs.db
+
+# Ignore all PNG files in the project
+######################################
+*.png
+*.jpg
+
+# However, if you have specific PNG files that should be tracked, use the ! operator before their path
+# For example, to track a specific PNG file in a folder where others are ignored, you could use:
+#!Assets/Important/icon.png
